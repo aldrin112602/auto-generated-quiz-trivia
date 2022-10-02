@@ -6,3 +6,18 @@ import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
   font-family: 'Prompt', sans-serif;
   transition: all 0.3s;
 }
+body {
+  background: linear-gradient(purple, blue);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+@media(min-width: 600px) {
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}
+label, #a, .btn, p {
+    font-size: 14px;
+}
